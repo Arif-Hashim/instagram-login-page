@@ -1,0 +1,51 @@
+:root {
+  --ink: #14181c;
+  --ink-soft: #5c6770;
+  --line: #dbdfe3;
+  --paper: #ffffff;
+  --field: #fafbfc;
+  --accent-1: #ffc93c;
+  --accent-2: #ff5a75;
+  --accent-3: #8b5cf6;
+  --cta: #7aa7e9;
+  --cta-hover: #5c8fdf;
+  --radius: 4px;
+  font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent-3);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
