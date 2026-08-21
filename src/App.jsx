@@ -120,7 +120,7 @@ export default function App() {
         </nav>
         <div className="footer-meta">
           <span className="lang-select">English ▾</span>
-          <span>© 2026 Loop — UI/UX practice concept</span>
+          <span>© 2026 instagram</span>
         </div>
       </footer>
     </div>
